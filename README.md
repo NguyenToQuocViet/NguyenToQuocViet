@@ -1,6 +1,6 @@
 # Nguyễn Tô Quốc Việt
 
-RTL Design & Verification · Computer Engineering @ HCMUT Honors · CGPA 3.4/4.0
+RTL Design & Verification · Computer Engineering @ HCMUT-VNU Honors Program · CGPA 3.4/4.0
 
 ---
 
