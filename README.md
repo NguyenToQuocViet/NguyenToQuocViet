@@ -1,7 +1,6 @@
 # Nguyễn Tô Quốc Việt
 
-RTL Design & Verification · Computer Engineering @ HCMUT Honors · CGPA 3.4/4.0  
-quocviet26105@gmail.com · Ho Chi Minh City, Vietnam
+RTL Design & Verification · Computer Engineering @ HCMUT Honors · CGPA 3.4/4.0
 
 ---
 
