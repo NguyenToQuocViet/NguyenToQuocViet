@@ -1,6 +1,6 @@
 # Nguyễn Tô Quốc Việt
 
-RTL Design & Verification · Computer Engineering @ HCMUT-VNU Honors Program · CGPA 3.4/4.0
+**RTL Design & Verification · Computer Engineering, Honors Program @ HCMUT – VNU-HCM · CGPA 3.5/4.0**
 
 ---
 
@@ -8,42 +8,49 @@ RTL Design & Verification · Computer Engineering @ HCMUT-VNU Honors Program · 
 
 | | |
 |---|---|
-| **HDL** | Verilog, SystemVerilog |
-| **Design** | RTL · FSM · Pipelined CPU · Cache Subsystem · On-Chip Interconnect |
-| **Protocols** | AMBA APB · AXI4 · AXI4-Lite |
-| **ISA** | RISC-V RV32IMF · MIPS32 |
-| **EDA** | Vivado · Quartus · Cadence Genus · Cadence Innovus |
-| **Verification** | Directed Testbench · Functional & Code Coverage |
+| **HDL** | SystemVerilog · Verilog |
+| **Hardware Design** | SoC Design · Pipelined CPU · Cache Subsystem · On-Chip Interconnect · FSM |
+| **Protocols** | AXI4 · AXI4-Lite · AXI4-Stream · APB |
+| **EDA** | Vivado · Vitis HLS |
+| **Verification** | Cocotb · pyUVM · Directed & Random Testing · Golden-Model Verification · Functional & Code Coverage |
 
 ---
 
 ## Projects
 
-### Advanced 32-bit RISC-V SoC &nbsp;`SystemVerilog` `2026 – present`
+### RISC-V SoC with Cache Subsystem `SystemVerilog` `FPGA` `2026`
 
-> **RV32IM** · **AXI4** · **Cache Subsystem**
+> **RV32I** · **7-Stage Pipeline** · **I/D Cache** · **KV260**
 
-RV32IM core from micro-arch spec to RTL. 4KB direct-mapped I-Cache + 4KB 2-way D-Cache (write-through, write-no-allocate, 4-entry write buffer, load-to-store forwarding). AXI4 Bus Arbiter mediating concurrent cache requests with burst transaction scheduling.
-
----
-
-### 32-bit MIPS 5-Stage Pipelined CPU &nbsp;`Verilog` `FPGA` `2025`
-
-> **75 MHz** · **BTB + 2-bit BHT** · **Hazard Control Unit** · **PLRU**
-
-Full RTL flow → FPGA synthesis at 75 MHz. 4-way set-associative caches (write-back, PLRU). Dynamic branch prediction via BTB + 2-bit BHT. Hazard Control Unit with EX→EX / MEM→EX forwarding and stall logic. Verified against golden reference model.
+Designed and implemented a 32-bit RV32I SoC in SystemVerilog, including a 7-stage pipelined CPU, hazard handling, a 4 KB direct-mapped I-Cache, and a 4 KB 2-way set-associative D-Cache with write-through / no-write-allocate policy. Integrated the processor and cache subsystem and verified all 38 RV32UI architectural tests. Synthesized the complete design on AMD Kria KV260 at approximately 140 MHz.
 
 ---
 
-### 64-bit Timer IP — AMBA APB Slave &nbsp;`Verilog` `2025`
+### Streaming ISP — Black Level & Bad Pixel Correction `C++` `Vitis HLS` `2026`
 
-> **APB** · **RW1C** · **Coverage Closure**
+> **RAW12 Bayer** · **AXI4-Stream** · **Streaming Architecture**
 
-Reusable 64-bit Timer IP: dual-mode, ÷256 prescaler, RW1C interrupt. Full APB slave — PSTRB byte-lane access, PREADY wait-states, PSLVERR error response. Verified against ICTC golden model with functional and code coverage closure.
+Designed hardware-oriented ISP blocks for RAW Bayer image processing as part of Viettel Digital Talent 2026. Implemented Black Level Correction with saturating arithmetic and AXI4-Stream interfaces, and developed an Adaptive Directional Bad Pixel Correction architecture using same-CFA neighborhood statistics and line-buffer-based streaming processing.
+
+Developed software reference models, image-based test datasets, and verification flows for algorithm and hardware validation.
 
 ---
 
-## Certifications
+### 64-bit Timer IP — APB Slave `Verilog` `2025`
 
-- **ICTC** — Fundamentals of IC Design & Verification · *Excellent*
-- **IELTS** Academic · 6.5
+> **APB** · **RW1C Interrupt** · **Coverage Closure**
+
+Designed a reusable 64-bit timer peripheral with dual operating modes, ÷256 prescaler, and RW1C interrupt handling. Implemented an APB slave supporting PSTRB byte-lane writes, programmable PREADY wait states, and PSLVERR error responses.
+
+Verified the design against the ICTC golden reference model with functional and code coverage closure.
+
+---
+
+## Certifications & Recognition
+
+- **Viettel Digital Talent Program 2026** — Certificate of Achievement  
+  *Phase I · Semiconductor — Digital Design and Verification*
+- **Viettel Digital Talent Program 2026** — Certificate of Recognition  
+  *Talent Ambassador*
+- **ICTC — Fundamentals of IC Design & Verification** · *Excellent*
+- **IELTS Academic** · 6.5
