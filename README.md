@@ -57,10 +57,21 @@ A reusable timer peripheral with byte-lane access through PSTRB, a clock prescal
 
 ## Experience
 
-**Viettel Digital Talent 2026**
+### Viettel Digital Talent 2026
 
-- **Phase 2 traineeship** (08/2026 – 11/2026). Took BLC and BPC from algorithm evaluation and reference model through HLS implementation to C/RTL verification, and integrated them into the team's ZCU102 prototype.
-- **Phase 1 internship** (05/2026 – 08/2026). Training in RTL design, SystemVerilog/UVM, SVA, synthesis, static timing analysis and SDC constraints. Built an AXI4 RAM and integrated it with Ibex; wrote RISC-V decoder and pipelined-arithmetic testbenches with SystemVerilog/UVM, cocotb and pyuvm.
+**Phase 2 traineeship** · 08/2026 – 11/2026
+
+Owner of the BLC and BPC blocks in a four-member ISP team, covering the whole chain: algorithm evaluation, C++ reference model, HLS implementation, and C/RTL verification.
+
+- Designed the Adaptive Directional BPC over five revisions in under two months. The final version beats AMD Vitis Vision on balanced restoration gain (91.24% vs 87.01%), changes far fewer clean pixels (0.92% vs 10.07%), and uses fewer LUTs, FFs and BRAMs.
+- Closed HLS timing at pixel-loop II=1 for 1920×1080 streaming, and verified against an independent golden model with zero mismatched pixels.
+- Both blocks went into the team's ZCU102 prototype, which runs at **35.6 fps** and produces **bit-exact output across 32 Full HD frames**.
+
+**Phase 1 internship** · 05/2026 – 08/2026
+
+- Trained in RTL design, SystemVerilog/UVM, SVA, synthesis, static timing analysis and SDC constraints.
+- Built an AXI4 RAM and integrated it with the Ibex core.
+- Wrote testbenches for a RISC-V decoder and a pipelined arithmetic unit in SystemVerilog/UVM, cocotb and pyuvm.
 
 ---
 
@@ -77,13 +88,26 @@ A reusable timer peripheral with byte-lane access through PSTRB, a clock prescal
 
 ---
 
-## Education, certificates, activities
+## Education
 
-- **HCMUT – VNU-HCM**, B.Eng. Computer Engineering, Honors Program (2023 – 2027). Coursework: Digital System Design, Logic Design with HDL, Computer Architecture, Operating Systems, Microprocessors & Microcontrollers, LSI Design.
-- **Viettel Digital Talent 2026**: Talent Ambassador; Phase 1 completion in the Semiconductor – Digital Design and Verification track.
-- **IC Training Center Vietnam (ICTC)**: Fundamentals of IC Design & Verification, grade Excellent.
-- **IELTS Academic**: 6.5 overall (2022).
-- **Student Ambassador, BK-FC, HCMUT**: mentoring high school students through university outreach and admissions guidance.
+**HCMUT – VNU-HCM**, B.Eng. Computer Engineering, Honors Program (2023 – 2027)
+
+Coursework: Digital System Design, Logic Design with HDL, Computer Architecture, Operating Systems, Microprocessors & Microcontrollers, LSI Design.
+
+---
+
+## Certificates
+
+- **Viettel Digital Talent 2026: Talent Ambassador** (Certificate of Recognition). Awarded to the top-performing trainee of the Semiconductor – Digital Design and Verification track.
+- **Viettel Digital Talent 2026: Phase 1 completion** (Certificate of Recognition). Internship at Viettel Semiconductor, Digital Design and Verification track.
+- **IC Training Center Vietnam (ICTC):** Fundamentals of IC Design & Verification, grade Excellent.
+- **IELTS Academic:** 6.5 overall (2022).
+
+---
+
+## Activities
+
+- **Student Ambassador, BK-FC, HCMUT:** mentoring high school students through university outreach and admissions guidance.
 
 **Languages:** Vietnamese (native), English (IELTS 6.5).
 
