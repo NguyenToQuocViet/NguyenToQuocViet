@@ -5,7 +5,7 @@
   Computer Engineering, Honors Program at HCMUT – VNU-HCM · CGPA 3.4 / 4.0
 </p>
 
-I design digital hardware, mostly CPUs, caches, bus peripherals and streaming image pipelines, and I verify it against software golden models.
+I design RTL for pipelined CPUs, cache subsystems, AMBA bus interfaces and streaming image datapaths, and I close it out with directed and random tests checked against golden models. I also build the verification harness around that flow, so AI agents can run and check the tests inside a loop I control.
 
 ---
 
