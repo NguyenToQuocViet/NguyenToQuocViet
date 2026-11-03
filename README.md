@@ -98,8 +98,8 @@ Coursework: Digital System Design, Logic Design with HDL, Computer Architecture,
 
 ## Certificates
 
-- **Viettel Digital Talent 2026: Talent Ambassador** (Certificate of Recognition). Awarded to the top-performing trainee of the Semiconductor – Digital Design and Verification track.
-- **Viettel Digital Talent 2026: Phase 1 completion** (Certificate of Recognition). Internship at Viettel Semiconductor, Digital Design and Verification track.
+- **Viettel Digital Talent Program 2026: Talent Ambassador** · Certificate of Recognition. Named a Talent Ambassador of the program, given to the strongest performer of the Semiconductor – Digital Design and Verification track.
+- **Viettel Digital Talent Program 2026: Phase 1, Semiconductor – Digital Design and Verification** · Certificate of Achievement. Completed the Phase 1 training of the track.
 - **IC Training Center Vietnam (ICTC):** Fundamentals of IC Design & Verification, grade Excellent.
 - **IELTS Academic:** 6.5 overall (2022).
 
