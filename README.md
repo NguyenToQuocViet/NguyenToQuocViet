@@ -2,21 +2,10 @@
 
 <p align="center">
   <b>RTL Design Engineer</b><br>
-  Computer Engineering (Honors) at HCMUT – VNU-HCM · Class of 2027 · CGPA 3.4 / 4.0
+  Computer Engineering, Honors Program at HCMUT – VNU-HCM · CGPA 3.4 / 4.0
 </p>
 
-<p align="center">
-  <a href="mailto:quocviet26105@gmail.com">quocviet26105@gmail.com</a> · Ho Chi Minh City, Vietnam
-</p>
-
-I design digital hardware, mostly CPUs, caches, bus peripherals and streaming image pipelines, and I verify it against software golden models. I'm looking for RTL design and verification roles.
-
----
-
-## What I'm working on
-
-- **Viettel Digital Talent 2026, Phase 2** (08/2026 – 11/2026): owner of the BLC and BPC blocks in a four-member ISP team. Running on a ZCU102 prototype at 35.6 fps with bit-exact output on 32 Full HD frames.
-- **Advanced RV32I core** (since 02/2026): 7-stage pipeline with dynamic branch prediction and an L1 cache subsystem, closing timing at 140 MHz on the Kria KV260.
+I design digital hardware, mostly CPUs, caches, bus peripherals and streaming image pipelines, and I verify it against software golden models.
 
 ---
 
@@ -97,3 +86,9 @@ A reusable timer peripheral with byte-lane access through PSTRB, a clock prescal
 - **Student Ambassador, BK-FC, HCMUT**: mentoring high school students through university outreach and admissions guidance.
 
 **Languages:** Vietnamese (native), English (IELTS 6.5).
+
+---
+
+## Contact
+
+quocviet26105@gmail.com · Ho Chi Minh City, Vietnam
